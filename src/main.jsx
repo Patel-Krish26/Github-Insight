@@ -15,7 +15,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             publishableKey={PUBLISHABLE_KEY}
             afterSignOutUrl="/"
         >
+            <BrowserRouter>
             <App />
+            </BrowserRouter>
         </ClerkProvider>
     </React.StrictMode>
 )
